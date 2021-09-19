@@ -1,5 +1,7 @@
 import './Main.css';
+import {Link} from 'react-router-dom';
 import img1 from './img/mainimg.png';
+
 
 function Main() {
     return (
@@ -7,6 +9,9 @@ function Main() {
  <link rel="stylesheet" type="text/css" href="./css/desktop-2.css" />
   <link rel="stylesheet" type="text/css" href="./css/styleguide.css" />
   <link rel="stylesheet" type="text/css" href="./css/globals.css" />
+  <link rel="stylesheet" type="text/css" href="css/desktop-3.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
   <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   <input type="hidden" id="anPageName" name="page" defaultValue="desktop-2" />
   <div className="container-center-horizontal">
@@ -22,9 +27,11 @@ function Main() {
         Leaderboards
       </div>
       <div className="lingo-battles-9Mbqq5">LingoBattles</div>
+      <Link to="/Categories">
       <div className="categories-9Mbqq5 montserrat-normal-white-30px">
         Categories
       </div>
+      </Link>
       <div className="recent-games-9Mbqq5 montserrat-normal-white-30px">
         Recent Games
       </div>
@@ -167,17 +174,23 @@ function Main() {
           </div>
         </div>
         
-      </div>
-      <div className="rectangle-12-9Mbqq5" />
-      <div className="log-out-9Mbqq5">Log Out</div>
-      <img
-        className="undrawselectplayer64ca-1-9Mbqq5"
-        src={img1} alt=""
-      />
+  
+ 
+  
+  
     </div>
+    <div className="rectangle-12-9Mbqq5" />
+  <div className="log-out-9Mbqq5">Log Out</div>
+  <img
+    className="undrawselectplayer64ca-1-9Mbqq5"
+    src={img1} alt=""
+  /></div>
   </div>
-
+  
+  
 </div>
+
+
   );
 }
 
