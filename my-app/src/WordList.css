@@ -1,0 +1,200 @@
+:root { 
+    --white: #ffffff;
+   
+    --font-size-l: 64px;
+    --font-size-m: 48px;
+    --font-size-s: 30px;
+    --font-size-xs: 24px;
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+  }
+  .montserrat-normal-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+
+.desktop-6 {
+  background-color: #f3e7ff;
+  height: 1024px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-6 .rectangle-18-ZnKzSm {
+  background-color: #fef8f8;
+  border-radius: 20px;
+  height: 684px;
+  left: 405px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 261px;
+  width: 905px;
+}
+
+.desktop-6 .title-ZnKzSm {
+  background-color: transparent;
+  color: #000000;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 532px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  width: 654px;
+}
+
+.desktop-6 .une-pomme-une-f-ocoli-la-laitue-ZnKzSm {
+  background-color: transparent;
+  color: #000000;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 513px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 347px;
+  width: 654px;
+}
+
+.desktop-6 .rectangle-18-AEuVgt {
+  background-color: #46178f;
+  height: 1024px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.desktop-6 .lingo-battles-ZnKzSm {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 71px;
+  width: 221px;
+}
+
+.desktop-6 .recent-games-ZnKzSm {
+  background-color: transparent;
+  height: auto;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 149px;
+  width: 240px;
+}
+
+.desktop-6 .leaderboards-ZnKzSm {
+  background-color: transparent;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 219px;
+  width: 221px;
+}
+
+.desktop-6 .categories-ZnKzSm {
+  background-color: transparent;
+  height: auto;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 294px;
+  width: 221px;
+}
+
+.desktop-6 .log-out-ZnKzSm {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+  height: auto;
+  left: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 900px;
+  width: 221px;
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,300,600");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+

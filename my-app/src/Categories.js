@@ -19,9 +19,12 @@ function Categories() {
       <div className="rectangle-16-cusbr8" />
       <div className="rectangle-15-cusbr8" />
       <div className="rectangle-17-cusbr8" />
+      <Link to="/WordList">
+
       <div className="food-drinks-yo9xbe montserrat-semi-bold-black-36px">
         Food &amp; Drinks
       </div>
+      </Link>
       <div className="times-dates-cusbr8 montserrat-semi-bold-black-36px">
         Times &amp; Dates
       </div>
