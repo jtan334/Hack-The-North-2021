@@ -1,4 +1,5 @@
 import './App.css';
+import {Link} from 'react-router-dom';
 import img1 from './img/apple.svg';
 import img2 from './img/fb.svg';
 import img3 from './img/google.svg';
@@ -30,19 +31,25 @@ function Login() {
         Battles
       </div>
       <img className="rectangle-1-ub0vYN" src={img4} alt="" />
-      
-      <div className="continue-with-f-ok-centre-fixed-ub0vYN">
+      <Link to="/Main">
+      <div className="continue-with-f-ok-centre-fixed-ub0vYN"  >
+     
         <div className="frame-6-Wx9IKP">
           <img
             className="facebook-logo-Tcl25j"
             src={img2}
-            alt=""/>
+            alt=""
+            />
+        
+         
           <div className="continue-with-f-ok-i26212722836-Tcl25j">
             Continue with Facebook
           </div>
+          
         </div>
       </div>
-      <div className="continue-with-g-le-centre-fixed-ub0vYN">
+      </Link> 
+      <div className="continue-with-g-le-centre-fixed-ub0vYN"  >
         <div className="frame-6-CmtREq">
           <img className="google-logo-qWhPlO" src={img3} alt=""/>
           <div className="continue-with-g-le-i26212822846-qWhPlO">
@@ -50,7 +57,7 @@ function Login() {
           </div>
         </div>
       </div>
-      <div className="continue-with-a-le-centre-fixed-ub0vYN">
+      <div className="continue-with-a-le-centre-fixed-ub0vYN" >
         <div className="frame-6-1jV5rD">
           <img className="apple-logo-JPtpLv" src={img1} alt=""/>
           <div className="continue-with-a-le-i26212922851-JPtpLv">
