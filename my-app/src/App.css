@@ -36,3 +36,300 @@
     transform: rotate(360deg);
   }
 }
+.SideBar{ 
+
+position: absolute;
+width: 256px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #46178F;
+}
+
+.LoginImage{
+
+  position: absolute;
+  width: 904px;
+  height: 644px;
+  left: 0px;
+  top: 380px;
+  
+  
+}
+.CotinueWithFacebookText{
+  position: static;
+  width: 232px;
+  height: 23px;
+  left: 54px;
+  top: 15px;
+  
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 15px;
+  
+  }
+  /* screen - desktop-8 */
+
+.desktop-8 {
+  background-color: var(--white);
+  height: 1024px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-8 .rectangle-2-ub0vYN {
+  background-color: #2889cd;
+  height: 409px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 904px;
+}
+
+.desktop-8 .learn-words-bat-friend-have-fun-ub0vYN {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 92px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 131px;
+  width: 873px;
+}
+
+.desktop-8 .title-ub0vYN {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 963px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 588px;
+  width: 420px;
+}
+
+.desktop-8 .lingo-battles-ub0vYN {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 72pt;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 891px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 104px;
+  width: 564px;
+}
+
+.desktop-8 .rectangle-1-ub0vYN {
+  background-color: transparent;
+  height: 644px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 380px;
+  width: 904px;
+}
+
+.desktop-8 .continue-with-f-ok-centre-fixed-ub0vYN {
+  background-color: #1877f2;
+  border-radius: 10px;
+  height: 54px;
+  left: 1008px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 726px;
+  width: 345px;
+}
+
+.desktop-8 .frame-6-Wx9IKP {
+  background-color: #1877f2;
+  border-radius: 10px;
+  height: 54px;
+  left: 22px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 301px;
+}
+
+.desktop-8 .facebook-logo-Tcl25j {
+  background-color: transparent;
+  height: 24px;
+  left: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 25px;
+}
+
+.desktop-8 .continue-with-f-ok-i26212722836-Tcl25j {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 54px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  width: auto;
+}
+
+.desktop-8 .continue-with-g-le-centre-fixed-ub0vYN {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #0000002b , 0px 0px 3px #00000015;
+  height: 54px;
+  left: 1008px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 815px;
+  width: 345px;
+}
+
+.desktop-8 .frame-6-CmtREq {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 54px;
+  left: 42px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 261px;
+}
+
+.desktop-8 .google-logo-qWhPlO {
+  background-color: transparent;
+  height: 24px;
+  left: 15px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 24px;
+}
+
+.desktop-8 .continue-with-g-le-i26212822846-qWhPlO {
+  background-color: transparent;
+  color: #0000008a;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 54px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  width: auto;
+}
+
+.desktop-8 .continue-with-a-le-centre-fixed-ub0vYN {
+  background-color: var(--black);
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #0000002b , 0px 0px 3px #00000015;
+  height: 54px;
+  left: 1008px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 904px;
+  width: 345px;
+}
+
+.desktop-8 .frame-6-1jV5rD {
+  background-color: var(--black);
+  border-radius: 10px;
+  height: 54px;
+  left: 51px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 244px;
+}
+
+.desktop-8 .apple-logo-JPtpLv {
+  background-color: transparent;
+  height: 24px;
+  left: 15px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 24px;
+}
+
+.desktop-8 .continue-with-a-le-i26212922851-JPtpLv {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 54px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  width: auto;
+}
+
+.desktop-8 .vector-ub0vYN {
+  
+  height: 151px;
+  left: 904px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 536px;
+}
+
+
