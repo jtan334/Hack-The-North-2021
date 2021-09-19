@@ -49,6 +49,7 @@ function Login() {
         </div>
       </div>
       </Link> 
+      <Link to="/Main">
       <div className="continue-with-g-le-centre-fixed-ub0vYN"  >
         <div className="frame-6-CmtREq">
           <img className="google-logo-qWhPlO" src={img3} alt=""/>
@@ -57,6 +58,8 @@ function Login() {
           </div>
         </div>
       </div>
+      </Link>
+      <Link to="/Main">
       <div className="continue-with-a-le-centre-fixed-ub0vYN" >
         <div className="frame-6-1jV5rD">
           <img className="apple-logo-JPtpLv" src={img1} alt=""/>
@@ -64,12 +67,14 @@ function Login() {
             Continue with Apple
           </div>
         </div>
+        
       </div>
+      </Link>
+
       <img className="vector-ub0vYN" src={img5} alt=""/>
     </div>
   </div>
-
-
+    
     </div>
   );
 }

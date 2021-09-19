@@ -22,14 +22,14 @@ function Categories() {
       <Link to="/WordList">
 
       <div className="food-drinks-yo9xbe montserrat-semi-bold-black-36px">
-        Food &amp; Drinks
+        Food 
       </div>
       </Link>
       <div className="times-dates-cusbr8 montserrat-semi-bold-black-36px">
-        Times &amp; Dates
+         Dates
       </div>
       <div className="nature-animals-cusbr8 montserrat-semi-bold-black-36px">
-        Nature &amp; Animals
+         Animals
       </div>
       <div className="sports-recreation-cusbr8 montserrat-semi-bold-black-36px">
         Sports &amp; Recreation
@@ -51,12 +51,16 @@ function Categories() {
         src={img4}
       />
       <div className="lingo-battles-cusbr8">LingoBattles</div>
+      <Link to="/Main">
       <div className="recent-games-cusbr8 montserrat-normal-white-30px">
         Recent Games
       </div>
+      </Link>
+      <Link to="/Main">
       <div className="leaderboards-cusbr8 montserrat-normal-white-30px">
         Leaderboards
       </div>
+      </Link>
       <div className="categories-cusbr8 montserrat-normal-white-30px">
         Categories
       </div>

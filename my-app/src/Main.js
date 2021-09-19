@@ -32,12 +32,17 @@ function Main() {
         Categories
       </div>
       </Link>
+      <Link to="/Main">
       <div className="recent-games-9Mbqq5 montserrat-normal-white-30px">
         Recent Games
       </div>
+        </Link>
+        <Link to="/Main">
+
       <div className="leaderboards-TjBfkx montserrat-normal-white-30px">
         Leaderboards
       </div>
+        </Link>
       <div className="youre-on-a-roll-d-4-games-today-9Mbqq5 montserrat-normal-black-48px">
         <span className="span0-PkMc5x montserrat-normal-black-48px">
           You’re on a roll!{" "}
